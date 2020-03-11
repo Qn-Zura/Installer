@@ -47,7 +47,7 @@ def abt():
 def end():
     print('Prosess Install')
     cans('pkg install git python2;pip2 install uncompyle6;git clone https://github.com/MhankBarBar/endec ;cd endec; python2 endec.py')
-def ext()
+def ext():
     print('Exit...\nGood Bay :*')
     exit()
   
