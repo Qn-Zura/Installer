@@ -27,6 +27,8 @@ def main():
                  abt()
              elif zura in ['5','05']:
                  ext()
+             else:
+                 print('Salah !!')
          except Exception as lol:
                exit(lol)
                
