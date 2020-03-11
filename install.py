@@ -27,10 +27,12 @@ def main():
                  abt()
              elif zura in ['5','05']:
                  ext()
+             elif zura in ['',' ']:
+                 print('Jangan Kosong !!')
              else:
                  print('Salah !!')
-         except Exception as lol:
-               exit(lol)
+         except ValueError:
+               exit('Pilihannya Angka Mhank!!')
                
 def gbt():
     print('Prosess Install....')
