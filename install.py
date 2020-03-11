@@ -29,8 +29,8 @@ def main():
                  ext()
              elif zura in ['',' ']:
                  print('Jangan Kosong !!')
-             else:
-                 print('Salah !!')
+ #            else:
+ #                print('Salah !!')
          except ValueError:
                exit('Pilihannya Angka Mhank!!')
                
