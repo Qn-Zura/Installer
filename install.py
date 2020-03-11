@@ -16,7 +16,7 @@ def main():
     print('[1].Tools Gabut\n[2].Tools Spam Sms\n[3].Tools endec [ python ]\n[4].About\n[5].Exit')
     while(True):
          try:
-             zura = int(input('Pilih : '))
+             zura = input('Pilih : ')
              if zura in ['1','01']:
                  gbt()
              elif zura in ['2','02']:
@@ -29,10 +29,11 @@ def main():
                  ext()
              elif zura in ['',' ']:
                  print('Jangan Kosong !!')
- #            else:
- #                print('Salah !!')
-         except ValueError:
-               exit('Pilihannya Angka Mhank!!')
+
+             else:
+                 print('Salah !!')
+         except Exception as lol:
+               exit(lol)
                
 def gbt():
     print('Prosess Install....')
